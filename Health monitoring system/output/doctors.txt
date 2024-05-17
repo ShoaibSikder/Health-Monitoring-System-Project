@@ -1,0 +1,13 @@
+Nayem Cardiologist 01715525199
+sabuj Orthopedic 01920242321
+Tamanna Neurologist 01678563214
+Ahmed Dermatologist 01897754123
+Farhana Pediatrician 01575458963
+Rahman Psychiatrist 01782365987
+Akhtar Oncologist 01987654321
+Sultana Gynecologist 01654328975
+Khan ENT_Specialist 01893456789
+Reza Urologist 01587654321
+Anika Ophthalmologist 01789012345
+Ali Nephrologist 01987654321
+Yasmin Pulmonologist 01623456789
