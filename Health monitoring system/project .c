@@ -144,6 +144,9 @@ void Title(char hospitalName[])
 /* ****************************************************** hospital ***************************************************** */
 void chooseHospital(char hospitalName[]) {
     int hospitalChoice;
+    printf("\n\n\t\t-------------------------------------------------------------------------------------");
+    printf("\n\t\t\t\t        Rural Health Monitoring System");
+    printf("\n\n\t\t-------------------------------------------------------------------------------------");
     FILE *hospital_file = fopen("hospitals.txt", "r"); // Open file for reading hospitals
     if (hospital_file == NULL) {
         printf("\nError opening hospitals file.\n");

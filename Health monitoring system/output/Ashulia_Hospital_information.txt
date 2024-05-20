@@ -1,0 +1,5 @@
+5757 Shoaib Sikder 23 male 01777936837 Fever 13-05-2024
+7209 Arnob Chakraborty 24 male 01715695251 Fever 13-05-2024
+3981 Forhad Hossain 24 male 01747943020 Fever 13-05-2024
+5751 Siyam Ahmed 23 male 01777936838 Fever,Diabetes 13-05-2024
+7564 Iftekharul Islam 1234 male 0175844444 Fever 13-05-2024
