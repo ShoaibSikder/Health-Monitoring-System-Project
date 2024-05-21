@@ -460,7 +460,7 @@ void detectDisease(char hospitalName[]) {
     printf("\n\n\t\t\tDisease(s) detected: %s\n", detectedDisease);
 
     // Write to the file
-    fprintf(info_file, "%s\n", detectedDisease);
+    fprintf(info_file, "%s", detectedDisease);
     fclose(info_file);
 
     printf("\n\n\t\t\t\tReturning to Main Menu...");
@@ -513,6 +513,8 @@ void generatePrescription(char hospitalName[]) {
 
     char date[50];
     strftime(date, 11, "%d-%m-%y", info); // Updated format specifier to "d-m-y"
+
+    fprintf(info_file, " %s\n", date);
 
     // Get patient id
     printf("\n\n\t\t\t\tEnter Your Patient ID : ");
@@ -750,6 +752,11 @@ void generatePrescription(char hospitalName[]) {
     // Close the file
     fclose(info_file);
 
+    info_file = fopen(infoFileName, "a");
+    fprintf(info_file, " %s\n", date);
+
+    fclose(info_file);
+
     printf("Returning to Main Menu...");
     getch();
     MainMenu();
@@ -937,7 +944,7 @@ void Addrecord(char hospitalName[]) {
         printf("\n\n\t\t\t!!!!!!!!!!! Thank You !!!!!!!!!!!\n");
         printf("\n\nReturning to Manage Patient...");
         getch();
-        main();
+        managepatient();
     }
     else
     {
@@ -1058,7 +1065,6 @@ void searchrecord(char hospitalName[]) {
     {
         gotoxy(5, 10);
         printf("\n\n\t\t\t\t   Record not found !!");
-        getch();
     }
     fclose(info_file);
     S:
@@ -1073,9 +1079,9 @@ void searchrecord(char hospitalName[]) {
     else if(toupper(ans)=='N' || ans == 'N')
     {
         printf("\n\n\t\t\t\t!!!!!!!!!!! Thank You !!!!!!!!!!!\n");
-        printf("\n\nReturning to Main Menu...");
+        printf("\n\nReturning to Manage Patient...");
         getch();
-        MainMenu();
+        managepatient();
     }
     else
     {
