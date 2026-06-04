@@ -4,3 +4,7 @@
 9551 Rabby Rejwan 24 Male 0156563877 Fever 16-05-2024
 7116 ttt ttt 23 male 09877654432 Diabetes 16-05-2024
 3326 shihab Miah 18 male 01747943020 Fever,Diabetes 17-05-2024
+5144 Minhaz Antor 23 male 01856423845 Fever,Diabetes 30-05-24
+6146 Anondo Sikder 23 male 07156965253 Fever 30-05-24
+4046 arnob chakraborty 23 male 123455566 Fever 30-05-24
+4428 arnob chakraborty 22 male 01854534 Fever 21-05-2024
